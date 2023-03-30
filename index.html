@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-black ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Dictionary</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input id="word" class="form-control me-2" type="search" placeholder="Search your word here" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        
+        <main>
+            <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+                
+                
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                           <h4 class="my-0 fw-normal">WORD</h4>
+                        </div>
+                        <div class="card-body ">
+                            </i><h1 class="card-title pricing-card-title"><span id="wordName"">
+                            </h1>
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">MEANING</h4>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title pricing-card-title"><span id="meaning">
+                            </h6>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <script src="https://kit.fontawesome.com/bcb263fb06.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</div>
+      
+
+</body>
+</html>
